@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{
+    background-color: aqua; font-family: fantasy; font-size: 20px;
+}
+h1 {
+    color: brown; background-color: chartreuse;
+}
+h2 {
+    color: steelblue;
+}
+p {
+    color: crimson; text-align: justify;
+}

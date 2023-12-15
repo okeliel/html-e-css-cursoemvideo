@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+                    <h1>Imagem Dinâmica</h1>
+            <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente varie seu tamanho no navegador.</p>
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="Imagens/P.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="Imagens/M.png" type="image/png"> <!--A tag SOURCE vem no mínimo, por isso,coloque no máximo.-->  
+
+        <!--O 1000px significa o seguinte:
+        O tamanho máximo sendo 1000px, poderá ser aberta.-->
+        <img src="Imagens/G.png" alt="grande">
+
+        
+
+    </picture>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo com HTML5</title>
+</head>
+<body>
+                    <h1>Vídeo com HTML5</h1>
+    <code>
+            <p>Este vídeo está armazenado no meu computador.</p>
+            <p><video src="midia/Meu-Video720p30.webm"width=500 controls> controls</video></p>
+
+        <!-- O width é utilizado para controlar o tamanho da exibição do vídeo no site. Procure colocar entre 300 e 500 por aqui. Essa função é adicionada após a aspa de fechamento. -->
+
+        <!-- A função controls é utilizada para exibir os controles de exibição e as informações do vídeo. ela é adicionada após a aspa de fechamento. -->
+        
+        <!-- No Microsoft Edge o formato WEBM não funciona. -->
+
+        <video controls width="500" poster="image/mikasa.png">
+
+        <source src="midia/Meu-Video720p30.mp4" type="video/mp4">
+        <source src="midia/Meu-Video720p30.ogv" type="video/ogg">
+        <source src="midia/-Meu-Video720p30.webm" type="video/webm">
+        <source src="midia/Meu-Video720p30.mkv" type="mp4">
+        <p>Seu navegador não suporta vídeo.</p>
+
+        </video>
+
+        <!-- Para adicionar uma capa no vídeo, utilize a função poster. -->
+
+        <!-- Armazenar vídeos com a tag <video> gera muito trafego de armazenamento, além de muitos gastos.-->
+
+
+                        <h1>Incorporação de Links</h1>
+                <iframe width="500" height="315"
+src="https://www.youtube.com/embed/videoseries?si=hAKSpLv-bsNFFcoy&amp;list=PLHz_
+AreHm4dlKP6QQCekuIPky1CiwmdI6" title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    </code>            
+</body>
+</html>
