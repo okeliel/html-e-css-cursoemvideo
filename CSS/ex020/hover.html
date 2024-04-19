@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto Escondido</title>
+    <style>
+    
+    div > p {
+        display: none;
+        color: blue;
+        background-color: rgb(40, 187, 79);
+    }
+
+    div:hover {
+        display: inline-block;
+        color: rgb(29, 230, 179);
+    }
+
+    div:hover > p {
+        display: block;
+        color: beige;
+        background-color: blue;
+        width: 300px;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    </style>
+
+</head>
+<body>
+    <p>Passe o mouse no texto abaixo.</p>
+    <div>
+        Lorem ipsum dolor sit.
+    <p>Texto Escondido...</p>
+    </div>
+    <p>Fim do exemplo.</p>
+</body>
+</html>

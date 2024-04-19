@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        <!--Pseudo-classes-->
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: aquamarine;
+        }
+        <!--Pseudo-elementos-->
+
+        a::before {
+            content: ' [Link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+
+        a::after {
+            content: '$$';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+
+        .especial::before {
+            content: '[Link]';
+            color: black;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+        .especial::after {
+            content: '[Link]';
+            text-decoration: none;
+        }
+
+        
+
+</style>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.github.com/okeliel">Repositório do github</a></li>
+        <li><a href="https://www.youtube.com/cursoemvideo" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do Curso em Vídeo</a></li>
+    </ul>
+    
+    <!--*******************************************-->
+
+    <!--PSEUDOCLASES-->
+
+    <!--SÃO PALAVRAS QUE DEFINEM ESTADO DE ELEMENTOS NO HTML.-->
+
+    <!--a: visited faz o seguinte: 
+        Altera a cor de um link após ser visitado.-->
+
+        <!--Text decoration: none == tira todos os efeitos do texto,
+        como um sunblinhado, por exemplo.-->
+
+        <!--a: hover 
+        Quando passar o mouse por cima, um efeito será realizado.-->
+
+        <!--a:active: muda a cor ao clicar em algo.-->
+
+        <!--***********************************************-->
+
+        <!--PSEUDO-ELEMENTOS-->
+
+        <!--Mexe no conteúdo periférico dos elementos-->
+
+        <!--a::after faz o seguinte...
+        após o texto será acrecentado outra coisa do lado. 
+    ESSE CÓDIGO SÓ FUNCIONOU QUANDO ADICIONEI "a::before{}" ANTES DO "after". -->
+
+        <!--a::before faz o seguinte...
+        antes do texto será acrecentado outra coisa do lado.
+    ESSE CÓDIGO NÃO FUNCIONOU!-->
+
+        <!--**************************-->
+
+        <!--RESUMÃO-->
+
+        <!--
+
+                # = id
+                . = class
+                : = pseudo-class
+                :: = pseudo-element
+                > = children (filho) 
+
+            MUITO IMPORTANTES PARA A CRIAÇÃO DE SELETORES PERSONALIZADOS.
+
+
+
+        -->
+
+
+</body>
+</html>
