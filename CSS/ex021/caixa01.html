@@ -7,21 +7,51 @@
     <style>
 
         h1 {
+            display: inline
+
             background-color: lightgray;
             height: 300px;
             width: 300px;  
+
+           /* 
             border-color: chartreuse;
             border-style: solid;
             border-width: 25px;
+            */
+            border: solid 25px chartreuse; 
 
+            /*
             padding-left: 10px;
             padding-top: 10px;
             padding-bottom: 10px;
             padding-right: 10px;
-            
+            */
+
+            /*Quando o padding tem o mesmo pixel nos quatro lados, é possível colocar apenas um pixel.*/
+
+            /*padding: 10px 10px 10px 10px;*/
+
+            padding: 10px;
+
+            /*
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            */
+            margin: 10px auto 10px auto;
+
+
+            /*
+            outline-width: 10px;
+            outline-color: blue;
+            outline-style: dotted;
+            */
+            outline: 10px dotted blue;
         }
 
         a {
+            display: block;
             border-width: 10px;
             border-style: dotted;
             border-width: 10px;
@@ -88,6 +118,86 @@
     <!--Se for para centralizar apenas textos, utilize o "text-align: center".-->
 
     <!--Parei em 7:13 -->
+
+    <!---------------------------------------------------------->
+
+    <!--
+                    OUTLINE
+
+        Fica entre a borda e o margem.
+
+        Não é possível ver o OUTLINE no DevTools mas é possível encontrá-lo no Style do DevTools.
+
+        outline-width
+        outline-style
+        outline-color
+    -->
+    <!------------------------------------------->
+
+    <!--
+        border-color: chartreuse;
+        border-style: solid;
+        border-width: 25px;
+
+        OU
+
+        border: solid 25px chartreuse;
+    -->
+
+    <!--
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            OU
+            padding: 10px 10px 10px 10px;
+            OU
+
+            padding: 10px;
+            Quando todos os lados forem iguais.
+
+            OU
+
+            padding: 10px 20px;
+            Aqui, o 10px ficará com cima e baixo e o 20px ficará com esquerda e direita.
+    -->
+    
+    <!--
+            outline-width: 10px;
+            outline-color: blue;
+            outline-style: dotted;
+            OU
+            outline: dotted 10px blue;
+    -->
+
+    <!--
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            OU
+            margin: 10px 10px 10px 10px;
+            OU
+
+            margin: 10px (cima) auto(direita) 10px(baixo) auto(esquerda);
+
+            O auto no lado direito e esquerdo servem para centralizar o elemento.
+    -->
+
+        <!--
+            Para transformar um display de block em inline, faça o seguinte:
+
+            display: inline
+
+            Para transformar um display de inline em block, faça o seguinte:
+
+            display: block;
+
+            block = box-level
+            inline = inline-level
+        -->
+
+
 
 </body>
 </html>
