@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    color: azure;
+    background-color: black;
+    text-align: center;
+}
