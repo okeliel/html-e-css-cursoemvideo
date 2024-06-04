@@ -1,22 +1,67 @@
 @charset "UTF-8";
 
+* /*{height: 100%;} - não funcionou*/
+
 * {height: 100%;}
-
 h1 {
-    background-color: aquamarine;
-    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-top: 20px,20px, 20px,20px;
+    text-align: center;
 }
-
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
 p {
-    background-color: cadetblue;
-    color: aliceblue;
+    background-color: rgb(251, 251, 251);
+    color: rgb(0, 0, 0);
+    text-align: center;    
 }
 body {
     background-image: linear-gradient(to right,#8ACDEA 30%,#746d75 70%);   
+}
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+#dor {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+#z {
+    color: black;
+    background-color: white;
+    text-align: center;
 
     background-attachment: fixed;
 }
+
+    /*background-attachment: fixed; - não funcionou na PRIMEIRA TENTATIVA MAS DEU CERTO NA SEGUNDA./*
+
+    /*
+As configurações abaixo não funcionam no MAIN dentro do CSS ENQUANTO O DEGRADÊ estiver ativado.
+
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+    NÃO FUNCIONOU NA PRIMEIRA MAS DEU CERTO NA SEGUNDA.
+/*
+
+
 
 
 
