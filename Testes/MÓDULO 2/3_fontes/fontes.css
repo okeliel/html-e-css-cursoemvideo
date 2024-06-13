@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+@font-face {
+    font-family:"lost";
+    src: url('fonts/love\ larry\ ttf.ttf') format('truetype');
+}
+
+
+h1 {
+    background-color: aqua;
+    font-family: "lost";
+    text-align: right;
+}
+h2 {
+    text-align: center;
+    font-family: "lost";
+    
+}
+
+p {
+    font-family: "Work sans";
+   text-decoration: underline;
+   font-size: 3em;
+   font-weight: bold;
+   font-style: italic;
+}
