@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-color: brown;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+p#alfa {
+    color: aqua;
+    text-align: center;
+}
+p#beta {
+    color: chartreuse;
+    text-align: center;
+}
+p#gama {
+    color: blue;
+    text-align: center;
+}
+p {
+    color: darkmagenta;
+    text-align: center;
+
+    font: bold italic 3em sans-serif;
+}
