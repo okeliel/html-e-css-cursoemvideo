@@ -21,10 +21,22 @@ h2 {
     
 }
 
-p {
+/*p {
     font-family: "Work sans";
    text-decoration: underline;
    font-size: 3em;
    font-weight: bold;
    font-style: italic;
+    
 }
+*/
+
+p{
+    font: bold italic 3em "Work sans";
+    text-decoration: underline;
+    text-indent: 100px;
+}
+
+/*A ordem seguida na FONT precisa ser seguida a risca!*/
+
+/*text-indent deixa aquele espaço no início do texto. */
