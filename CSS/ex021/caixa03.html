@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas com imagens</title>
+</head>
+<style>
+    h1 {
+        border: 32px solid black;
+        padding: 10px;
+
+        border-image-source: url('borda.png');
+        border-image-slice: 24;
+        border-image-repeat: repeat;
+
+        /*
+        É possível escrever o código acima com shothand.
+
+        border-image-source: ('borda2.png') 39 repeat; 
+
+        Para a borda decorada funcionar, a borda comum precisa estar ativa.
+        */
+    }
+</style>
+<body>
+    <h1>Borda com imagem</h1>
+</body>
+</html>
