@@ -27,6 +27,7 @@
 body {
     background-color: var(--color1);
     font-family: var(--font01);
+    
 }
 
 header {
@@ -66,4 +67,10 @@ p {
 footer {
     background-color: var(--color5);
     color: white;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
 }
