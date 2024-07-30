@@ -49,15 +49,30 @@ nav {
 }
 
 main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
     background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.484);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
 }
-main,h1 {
+main h1 {
     color: var(--color5);
     font-family: var(--font03);
 }
 
-main,h2 {
+main h2 {
     font-family: var(--font03);
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    
 }
 
 p {
@@ -67,10 +82,13 @@ p {
 footer {
     background-color: var(--color5);
     color: white;
+    
 }
 
-img {
-    width: 100%;
-    height: auto;
-    
+
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
