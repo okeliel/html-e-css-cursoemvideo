@@ -26,26 +26,53 @@
 
 body {
     background-color: var(--color1);
-    font-family: var(--font01);
-    
+    font-family: var(--font01);    
 }
 
 header {
-    background-color: var(--color5);
+    background-image: linear-gradient(to bottom, var(--color5), var(--color1));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1 {
     color: white;
-    font-family: var(--font02);
-
+    font-family: var(--font03);
+    margin-bottom: 30px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
 }
 
 header > p {
+    font-family: var(--font01);
     color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    text-shadow: 1px 1px 0px black;
 }
 
 nav {
     background-color: var(--color5);
+    text-align: center;
+}
+
+nav>a {
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav>a:hover {
+    background-color: var(--color4);
+    color: black;    
 }
 
 main {
@@ -57,9 +84,9 @@ main {
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.484);
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    
+    border-bottom-right-radius: 10px;   
 }
+
 main h1 {
     color: var(--color5);
     font-family: var(--font03);
@@ -84,8 +111,6 @@ footer {
     color: white;
     
 }
-
-
 
 main img.pequena {
     width: 50%;
