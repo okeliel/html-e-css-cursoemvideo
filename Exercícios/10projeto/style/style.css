@@ -87,6 +87,29 @@ main {
     border-bottom-right-radius: 10px;   
 }
 
+main a {
+    color: var(--color2);
+    background-color: white;
+    padding: 2px 6px;
+    border: 50px;
+    font-weight: bold;
+}
+
+main a:hover {
+    background-color: #3DDC84;
+    text-decoration: underline;
+    color: #063D1E;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 1em;
+    line-height: 2em;
+
+}
+
 main h1 {
     color: var(--color5);
     font-family: var(--font03);
@@ -94,12 +117,33 @@ main h1 {
 
 main h2 {
     font-family: var(--font03);
+    background-image: linear-gradient(to right (rgb(49, 163, 152)),transparent);
+    text-indent: 8px;
+    color: #063D1E;
+
+    /* Degradê da frase do H2 não funcionou.*/
+}
+
+h2 {
+    background-image: linear-gradient(to right (blue),transparent);
+    text-indent: 8px;
 }
 
 main img {
     width: 100%;
     height: auto;
     
+}
+
+main strong {
+    font-weight: bolder;
+    padding: 1px 2px;
+    background-color: #2FA866;
+    color: white;
+}
+
+main strong:hover {
+    background-color: var(--color3);
 }
 
 p {
@@ -113,7 +157,7 @@ footer {
 }
 
 main img.pequena {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
