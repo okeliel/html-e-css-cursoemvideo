@@ -25,7 +25,7 @@
 }
 
 body {
-    background-color: var(--color1);
+    background-color: var(--color2);
     font-family: var(--font01);    
 }
 
@@ -117,9 +117,10 @@ main h1 {
 
 main h2 {
     font-family: var(--font03);
-    background-image: linear-gradient(to right (rgb(49, 163, 152)),transparent);
+    color: var(--color1);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--color4),transparent);
     text-indent: 8px;
-    color: #063D1E;
 
     /* Degradê da frase do H2 não funcionou.*/
 }
@@ -137,9 +138,7 @@ main img {
 
 main strong {
     font-weight: bolder;
-    padding: 1px 2px;
-    background-color: #2FA866;
-    color: white;
+    color:black;
 }
 
 main strong:hover {
@@ -150,11 +149,50 @@ p {
     font-family: var(--font01);
 }
 
+    aside {
+        background-color: #3DDC84;
+        padding: 10px 30px 10px 20px;
+        border-radius: 10px 10px;
+
+
+    }
+
+    aside > ul {
+        list-style-position: inside;
+        list-style-type: \'2714'\;
+
+        /*list-style-type não funcionou.*/
+    }
+
+    aside > h3 {
+        background-color: #063D1E;
+        font-family: var(--font03);
+        color: var(--color2);
+        padding: -10px;
+        margin: -10px -30px -10px -20px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+
 footer {
     background-color: var(--color5);
     color: white;
-    
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
 }
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(80, 131, 175);
+    text-decoration: underline;
+}
+
 
 main img.pequena {
     max-width: 350px;
