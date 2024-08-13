@@ -101,6 +101,7 @@ main a:hover {
     color: #063D1E;
 }
 
+
 main p {
     margin: 15px 0px;
     text-align: justify;
@@ -143,6 +144,7 @@ main strong {
 
 main strong:hover {
     background-color: var(--color3);
+
 }
 
 p {
@@ -193,9 +195,13 @@ footer a:hover {
     text-decoration: underline;
 }
 
+a.externo::after {
+    content: '\00a0\1f517';
+}
 
 main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
 }
+
