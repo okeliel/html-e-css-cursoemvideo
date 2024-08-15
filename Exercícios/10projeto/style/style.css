@@ -204,4 +204,20 @@ main img.pequena {
     display: block;
     margin: auto;
 }
+div.video {
+    background-color: #83E1AD;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+    margin: 0px -20px 30px -20px;
+    
+}
+
+div.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 
