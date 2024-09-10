@@ -54,7 +54,7 @@ header {
     
 }
 
-header, ul {
+header{
     background-color: rgba(0, 255, 132, 0.432);
     max-width: 1538px;
     min-width: 300px;
@@ -127,11 +127,21 @@ div.video>iframe {
     height: 90%;
 }
 
+aside {
+    background-color: rgba(0, 0, 255, 0.138);
+    padding-left: 30px;
+    padding-right: 19px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 19px;
+}
+
 aside>ul {
 
     list-style-position: inside;
-    text-align: start;
-    padding-left: 150px;
+    text-align: initial;
+    padding-right: 55px;
+    padding-left: 100px;
 }
 
 footer>p {

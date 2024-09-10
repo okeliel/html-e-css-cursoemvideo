@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+main {
+    background-color: aquamarine;
+}
+
+
+
+header {
+background-color: brown;
+}
+
+nav {
+    background-color: blue;
+}
+
+article {
+    background-color: green;
+}
+
+article>aside {
+    background-color: yellow;
+}
+
+
