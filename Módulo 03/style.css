@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*COMO TROCAR A INAGEM DE FUNDO DO SITE*/
+body {
+    background-image: url(imagens/wallpaper001.jpg);
+}
+
+
+/*COMO FAZER UM QUADRADO */
+div.quadrado {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/*COMO TROCAR O FUNDO DE UM QUADRADO */
+
+div#k1 {
+    background-color: rgb(24, 121, 89);
+}
+
+div#k2 {
+    background-image: linear-gradient(to bottom, yellow,red);
+}
+
+div#k3 {
+    background-image: url('imagens/pattern001.png');
+}
