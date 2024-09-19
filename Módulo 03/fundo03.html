@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNDO 3</title>
+    <style>
+        div.quadro {
+            background-image: url('imagens/wallpaper003.jpg');
+            border: 1px solid black;
+            border-radius: 20px;
+            height: 200px;
+            margin: 10px;
+        }
+
+        div#q1 { /*extremo esquerdo - ponto natural*/
+            background-position: left top;
+        }
+
+        div#q1 { /*extremo esquerdo central*/
+            background-position: left center;
+        }
+
+        div#q3 { /*extremo direito inferior*/
+            background-position: right bottom;
+        }
+
+        div#q4 { /*centro do centro*/
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadro" id="q1"></div>
+    <div class="quadro" id="q2"></div>
+    <div class="quadro" id="q3"></div>
+    <div class="quadro" id="q4"></div>
+</body>
+</html>
