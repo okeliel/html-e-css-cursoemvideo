@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(110, 180, 213);
+    text-align: center;
+}
+
+header {
+    background-color: rgba(223, 235, 11, 0.71);
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    margin: auto;
+}
+
+nav {
+    background-color: rgb(228, 28, 38);
+    text-align: center;
+    padding: auto;
+    margin: 0px -21px 0px -21px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    padding-bottom: 30px;
+}
+
+article {
+    background-color: rgb(48, 128, 85);
+    margin: 18px 18px -5px 18px;
+    padding: 20px 24px 20px 10px;
+}
+
+aside {
+    background-color: rgb(255, 255, 255);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+
+    /*Centralizar a lista*/
+}
+
+.list {
+    padding: 1px 40px 0px 70px;
+    margin: 0px 65px 0px 65px;
+    max-width: 150px;
+    text-align: justify;
+}
+
+footer {
+    background-color: rgb(73, 155, 111);
+    text-align: center;
+}
+
+
+
+
+
