@@ -15,10 +15,12 @@ header {
     text-align: center;
     padding: 15px 30px 15px 30px;
     margin: auto;
-}
+    background-image: linear-gradient(to right, white 30px, rgb(48, 128, 85) );
+    }
 
 nav {
-    background-color: rgb(228, 28, 38);
+    background-color: rgb(48, 128, 85);
+    background-image: linear-gradient(to right, white 30px, rgb(48, 128, 85) );
     text-align: center;
     padding: auto;
     margin: 0px -21px 0px -21px;
@@ -48,12 +50,11 @@ aside {
 }
 
 section {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(48, 128, 85);
 }
 
 ul {
-    list-style-type: none;
-    text-align: center;
+    list-style-type:none;
     margin: auto;
 
     /*Centralizar a lista*/
@@ -63,7 +64,7 @@ ul {
     padding: 1px 40px 0px 70px;
     margin: 0px 65px 0px 65px;
     max-width: 150px;
-    text-align: justify;
+    text-align: center;
 }
 
 footer {
@@ -71,6 +72,14 @@ footer {
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+}
 
 
 
