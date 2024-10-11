@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: rgb(110, 180, 213);
+    
+    background-image: linear-gradient(to right, white 30px, rgb(48, 128, 85) );
     text-align: center;
 }
 
@@ -23,7 +24,17 @@ nav {
     background-image: linear-gradient(to right, white 30px, rgb(48, 128, 85) );
     text-align: center;
     padding: auto;
-    margin: 0px -21px 0px -21px;
+    margin: 11px -21px 0px -21px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: dashed;
+}
+
+a:hover{
+    color: white;
 }
 
 main {
@@ -47,6 +58,7 @@ aside {
     max-width: 1000px;
     margin: auto;
     padding-bottom: 30px;
+
 }
 
 section {
@@ -68,7 +80,7 @@ ul {
 }
 
 footer {
-    background-color: rgb(73, 155, 111);
+    background-image: linear-gradient(to right, white 30px, rgb(48, 128, 85) );
     text-align: center;
 }
 
