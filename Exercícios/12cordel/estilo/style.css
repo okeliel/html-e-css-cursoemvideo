@@ -30,7 +30,7 @@ header > h1 {
     /*A "font-variant" reduz o tamanho da fonte mais delicadamente, além de manter as letras maiúsculas.*/
 }
 
-header > pre {
+header > p {
     padding-bottom: 50px;
     /*NÃO FUNCIONOU!*/
 }
