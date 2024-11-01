@@ -5,7 +5,7 @@
     padding: 0px;
 }
 
-htmml, body {
+html, body {
     min-height: 100vh;
     background-color: darkgrey;
 
@@ -30,7 +30,7 @@ header > h1 {
     /*A "font-variant" reduz o tamanho da fonte mais delicadamente, além de manter as letras maiúsculas.*/
 }
 
-header > p {
+header > pre {
     padding-bottom: 50px;
     /*NÃO FUNCIONOU!*/
 }
@@ -63,7 +63,7 @@ section.imagem {
     color: white;
 }
 
-section.imagem > p {
+section.imagem > pre {
     width: 400px;
     background-color: black;
 }
