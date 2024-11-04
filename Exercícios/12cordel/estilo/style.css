@@ -1,13 +1,28 @@
 @charset "utf-8";
 
+/*Passion One*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/*Sriracha*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root {
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive;  
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
+    font-family: var(--fonte01);
 
     /*No min-height pode ser 100% ou 100vh*/
 
@@ -22,6 +37,9 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size:10vw;
+    
 
     /*Padding-top dá um espacinho na parte de cima do "Cordel Moderno".*/
 
@@ -32,11 +50,10 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
-    /*NÃO FUNCIONOU!*/
 }
 
 a:hover {
-    color: rgb(24, 186, 113);
+    text-decoration: underline;
 }
 
 a {
@@ -50,12 +67,13 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
 }
 
 section.normal {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 section.imagem {
@@ -63,9 +81,10 @@ section.imagem {
     color: white;
 }
 
-section.imagem > pre {
-    width: 400px;
-    background-color: black;
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(148, 81, 81);
 }
 
 footer{
