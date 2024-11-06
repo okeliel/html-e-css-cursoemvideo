@@ -79,12 +79,34 @@ section.normal {
 section.imagem {
     background-color: rgb(84, 84, 84);
     color: white;
+
+    box-shadow: inset 6px 6px 12px 0px black;
+    /*Cria o efeito de folha rasgada nas partes com imagem do site*/
+    background-size: cover; /*O cover deixa a imagem mais organizada*/
+    background-attachment: fixed; /*Cria o efeito paralax*/
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgb(148, 81, 81);
+    background-color: rgba(0, 0, 0, 0.656);
+    text-shadow: 1px 1px 0px black; /* Aqui, adicione a sombra no texto*/
+}
+
+section > p {
+    padding-bottom: 20px;
+}
+
+section#img01 {
+    background-image: url('../pacote-d012/imagens/background001.jpg');
+    
+    background-position: right center; /*posição centralizada à direita*/
+}
+
+section#img02 {
+    background-image: url('../pacote-d012/imagens/background002.jpg');
+
+    background-position: right center; /*centraliza a imagem à direita*/
 }
 
 footer{
