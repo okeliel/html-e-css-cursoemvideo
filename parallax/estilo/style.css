@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/*roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&family=Sriracha&display=swap');
+
+
+/*Galada*/
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.root {
+    fonte01:  Verdana, Geneva, Tahoma, sans-serif;
+    fonte02: "Galada",serif;
+    fonte03: "Roboto", sans-serif;
+}
+
+body,html {
+    background-color: rgb(162, 219, 255);
+    min-height: 100vh;
+    font-family: var(--fonte01);
+
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    
+}
+
+header > h1 {
+    font-size: 30px;
+    font-family: var(--fonte02);
+}
+
+header > p {
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(162, 219, 255);
+}
+
+section {
+    padding-left:12vh;
+    padding-bottom:15vh;
+    padding-top:5vh;
+    line-height: 20px;
+    font-size:20px;
+    font-family: var(--fonte03);
+}
+
+section > p {
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    margin: 20px 90px 20px 20px;
+}
+
+section.normal {
+    background-color: rgb(208, 109, 109);
+    text-shadow: 150px;
+}
+
+section.imagem {
+    height: 260px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+}
+
+section#img01 {
+    background-image: url(../imagem/background001.jpg);
+}
+section#img02 {
+    background-image: url(../imagem/background002.jpg);
+}
+
