@@ -13,77 +13,94 @@
     border: 0px;
 }
 
-.root {
+:root {
     fonte01:  Verdana, Geneva, Tahoma, sans-serif;
     fonte02: "Galada",serif;
     fonte03: "Roboto", sans-serif;
 }
 
-body,html {
-    background-color: rgb(162, 219, 255);
+html, body {
+    background-color: rgba(5, 10, 14, 0.33);
     min-height: 100vh;
     font-family: var(--fonte01);
 
 }
 
 header {
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
+    background-color: #9ea1a5;
+    text-align: center;
+    color: black;
     
 }
 
 header > h1 {
-    font-size: 30px;
-    font-family: var(--fonte02);
+    font-size: 10vw;
+    font-family: var(--fonte03);
+    font-variant: small-caps;
+    padding-top: 50px;
 }
 
 header > p {
-    font-size: 20px;
-    padding-left: 100px;
+    padding-bottom: 50px;
 }
 
 a {
+    color: brown;
+    font-weight: bolder;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(162, 219, 255);
+    text-decoration: underline;
 }
 
 section {
-    padding-left:12vh;
-    padding-bottom:15vh;
-    padding-top:5vh;
-    line-height: 20px;
-    font-size:20px;
+    padding-left:30px;
+    padding-bottom: 10vh;
+    padding-top:10vh;
+    padding-right:12vh;
+    line-height: 2em;
+    font-size:3.5vw;
     font-family: var(--fonte03);
 }
 
-section > p {
-    background-color: rgba(0, 0, 0, 0.637);
-    color: white;
-    margin: 20px 90px 20px 20px;
-}
-
 section.normal {
-    background-color: rgb(208, 109, 109);
-    text-shadow: 150px;
+    background-color: rgba(22, 20, 20, 0.227);
+    color: white;
 }
 
 section.imagem {
-    height: 260px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: rgb(6, 21, 16);
+color: blueviolet;
+    box-shadow: inset 6px 6px 12px  0px black;
     background-size: cover;
-
-    
+    background-attachment: fixed;
 }
+
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.637);
+    text-shadow: 1px 1px 1px 0px black;
+    max-width: 1800px;
+}
+
+
+section > p {
+    padding-bottom: 20px;
+}
+
+
+
+
 
 section#img01 {
     background-image: url(../imagem/background001.jpg);
+    background-position: right center;
 }
 section#img02 {
     background-image: url(../imagem/background002.jpg);
+    background-position: right center;
 }
 
