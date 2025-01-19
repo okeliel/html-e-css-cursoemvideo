@@ -1,12 +1,10 @@
 @charset "utf-8";
 
-/*roboto*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&family=Sriracha&display=swap');
+/*Passion One*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-
-/*Galada*/
-@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
-
+/*Sriracha*/
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -14,9 +12,9 @@
 }
 
 :root {
-    fonte01:  Verdana, Geneva, Tahoma, sans-serif;
-    fonte02: "Galada",serif;
-    fonte03: "Roboto", sans-serif;
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: "Sriracha", cursive;  
 }
 
 html, body {
@@ -27,25 +25,25 @@ html, body {
 }
 
 header {
-    background-color: #9ea1a5;
+    background-color: #ffffff;
     text-align: center;
     color: black;
     
 }
 
 header > h1 {
-    font-size: 10vw;
+    font-size: 8vw;
     font-family: var(--fonte03);
     font-variant: small-caps;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 header > p {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 a {
-    color: brown;
+    color: rgb(0, 0, 0);
     font-weight: bolder;
     text-decoration: none;
 }
@@ -65,13 +63,13 @@ section {
 }
 
 section.normal {
-    background-color: rgba(22, 20, 20, 0.227);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.837);
+    color: rgb(0, 0, 0);
 }
 
 section.imagem {
     background-color: rgb(6, 21, 16);
-color: blueviolet;
+color: rgb(255, 255, 255);
     box-shadow: inset 6px 6px 12px  0px black;
     background-size: cover;
     background-attachment: fixed;
@@ -88,11 +86,8 @@ section.imagem > p {
 
 
 section > p {
-    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
-
-
-
 
 
 section#img01 {
@@ -104,3 +99,9 @@ section#img02 {
     background-position: right center;
 }
 
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
