@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+* {
+    margin:0px;
+    padding:0px;
+    font-size: 1em;
+}
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+*/
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(/fonts/Pacifico/Pacifico-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Bangers';
+    src: url(/fonts/Bangers/Bangers-Regular.ttf)
+}
+
+:root {
+  --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte02: "Pacifico", serif;
+  --fonte03: 'Bangers', cursive;
+}
+
+
+html, body {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    
+}
+
+header {
+    background-color: #170638;
+    color: rgb(191, 255, 0);
+    text-align: justify;
+}
+
+header > h1 {
+    padding-top:50px ;
+    padding-bottom: 50px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+header >p {
+    margin-left: 50px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.normal {
+    background-color: rgb(255, 255, 255);
+    background-image: url();
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte02);
+}
+
+.editado {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    background-image: url(/imagem/background002.jpg);
+    font-family: var(--fonte03);
+}
+
+.editado > p {
+    background-color: black;
+    width: 400px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    background-image: url(/imagem/background001.jpg);
+}
+
+section > p {
+    margin-right: 300px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+footer {
+    background-color: #170638;
+}
+footer {
+    color: white;
+    text-align: center;
+}
+
+
