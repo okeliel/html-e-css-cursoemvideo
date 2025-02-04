@@ -46,6 +46,7 @@ header > h1 {
     padding-bottom: 50px;
     font-variant: small-caps;
     text-align: center;
+    font-size: 3vw;
 }
 
 header >p {
@@ -66,7 +67,7 @@ a:hover {
     background-color: rgb(255, 255, 255);
     background-image: url();
     color: rgb(0, 0, 0);
-    font-family: var(--fonte02);
+    font-family: var(--fonte03);
 }
 
 .editado {
@@ -76,9 +77,15 @@ a:hover {
     font-family: var(--fonte03);
 }
 
+.normal > p {
+    width: 100vw;
+}
+
 .editado > p {
     background-color: black;
-    width: 400px;
+    width: 60vw;
+    display: inline-block;
+    padding: 5px;
 }
 
 section{
@@ -87,6 +94,7 @@ section{
     padding-left: 30px;
     line-height: 2em;
     background-image: url(/imagem/background001.jpg);
+    font-size: 4.5vw;
 }
 
 section > p {
