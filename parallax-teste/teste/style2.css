@@ -37,7 +37,7 @@ html, body {
 
 header {
     background-color: #170638;
-    color: rgb(191, 255, 0);
+    color: rgb(0, 17, 255);
     text-align: justify;
 }
 
@@ -46,7 +46,8 @@ header > h1 {
     padding-bottom: 50px;
     font-variant: small-caps;
     text-align: center;
-    font-size: 3vw;
+    font-size: 6vw;
+    font-family: var(--fonte03);
 }
 
 header >p {
@@ -67,14 +68,16 @@ a:hover {
     background-color: rgb(255, 255, 255);
     background-image: url();
     color: rgb(0, 0, 0);
-    font-family: var(--fonte03);
+    font-family: var(--fonte02);
 }
 
 .editado {
     background-color: rgb(255, 255, 255);
     color: white;
     background-image: url(/imagem/background002.jpg);
-    font-family: var(--fonte03);
+    font-family: var(--fonte02);
+    box-shadow: inset 5px 5px 5px black;
+    background-attachment: fixed;
 }
 
 .normal > p {
@@ -82,10 +85,12 @@ a:hover {
 }
 
 .editado > p {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.353);
     width: 60vw;
     display: inline-block;
     padding: 5px;
+    text-shadow: 4px 4px 4px black; /*Funcionou bem fraquinho*/
+    
 }
 
 section{
@@ -93,14 +98,28 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-    background-image: url(/imagem/background001.jpg);
     font-size: 4.5vw;
 }
 
 section > p {
     margin-right: 300px;
     margin-left: 30px;
+    padding-bottom: 2em;
 }
+
+#img01 {
+    background-image: url(../imagem/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url(../imagem/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+
 
 
 
