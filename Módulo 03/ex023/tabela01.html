@@ -9,22 +9,28 @@
 <style>
     table {
         width: 400px;
-        border-collapse: collapse;
-        background-color: rgb(191, 193, 193);
+        height: 400px;
+        border-collapse:collapse;
+        background-color: rgb(197, 198, 198);
     }
 
     td {
         border: 1px black solid;
         padding: 8px;
-        text-align: center;
+        text-align: center; /*Alinhamento horizontal*/
         color: rgb(0, 0, 0);
+        vertical-align: middle; /*Alinhamento vertical*/
+    }
+
+    .numero {
+        text-align: right;
     }
 </style>
 <body>
     <table>
 
         <tr>
-            <td>A1</td>
+            <td class="numero">A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
@@ -38,7 +44,7 @@
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         
     </table>
