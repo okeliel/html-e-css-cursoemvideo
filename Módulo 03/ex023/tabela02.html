@@ -14,6 +14,7 @@
     table {
         width: 500px;
         border-collapse: collapse;
+        position: relative;
     }
 
     td,th {
@@ -28,6 +29,19 @@
     color: white;
     }
 
+    thead > tr > th {
+        position: sticky;
+        top: -1px; 
+        background-color:rgb(142, 142, 142);
+
+        /*
+        sticky = colável
+        Significa que irá colar na parte escolhida.
+        */
+    }
+
+
+
     caption {
         font-size: 20px;
         font-weight: bolder;
@@ -37,6 +51,15 @@
         color: white;
     }
 
+    /*EFEITO ZEBRADO*/
+    tbody > tr:nth-last-child(odd) {
+        background-color: #b1b1b1;
+
+        /*
+        even OU 2n: a listra começa na segunda linha
+        odd OU 2n-1: a lista começa na primeira linha
+        */
+    }
 
 </style>
 <body>
