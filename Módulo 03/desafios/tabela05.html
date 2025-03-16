@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        text-align: center;
+    }
+
+    thead {
+        
+        border-collapse: collapse;
+        position: relative;
+    }
+
+    th,td {
+        border: 1px solid black;
+        width: 200px;
+        width: 100px;
+    }
+
+    .destaque {
+        background-color: #f0f0f0;
+    }
+
+    .destaque2 {
+        background-color: #c3f1e1;
+    }
+
+    col {
+        background-color: rgb(190, 220, 92);
+    }
+
+</style>
+
+
+
+<body>
+    <table>
+
+        <colgroup>
+            
+            <col class="destaque">
+            <col class="destaque2">
+            <col span="2"> <!-- Quando for utilizar uma cor em duas ou mais colunas, utilize o span -->
+
+            <!-- Crie um COL  quando for utilizar uma cor para cada coluna.-->
+
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Gênero</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>M</td>
+                <td>25</td> 
+                <td>Desenvolvedor</td>
+            </tr>
+
+            <tr>
+                <td>Gia</td>
+                <td>F</td>
+                <td>30</td>
+                <td>Designer</td>
+            </tr>
+
+            <tr>
+                <td>Ahava</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Desenvolvedora</td>
+            </tr>
+
+            <tr>
+                <td>Ryan</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Engenheiro</td>
+            </tr>
+        </tbody>
+
+
+        
+    </table>
+</body>
+</html>
