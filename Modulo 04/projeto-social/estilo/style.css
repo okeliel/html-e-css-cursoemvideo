@@ -41,6 +41,9 @@ section#telefone {
 
 
 /*
+
+* - reset: margin, padding, e font-family são resetados em suas expectivas configurações.
+
 position: absolute - deixa o quadrado no meio da tela, mas precisa configurar
 
 top, left: 50% - deixa o quadrado quase no meio
@@ -63,4 +66,12 @@ Para criar um efeito meio 3D, adicione o background-size:cover;
 Para criar fixar a tela, adicione o background-attachment: fixed;
 
 */
+}
+
+iframe#tela {
+       position: relative;
+       height: 470px;
+       width: 268px;
+       top: 80px;
+       left: 22px;  
 }
