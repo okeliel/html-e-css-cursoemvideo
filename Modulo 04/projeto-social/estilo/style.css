@@ -75,3 +75,27 @@ iframe#tela {
        top: 80px;
        left: 22px;  
 }
+
+section#redes-sociais img {
+
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /* Essa função arredonda o icone.*/
+    box-shadow: 3px 3px 5px black;
+    box-sizing: border-box; /*A borda fará parte do objeto.*/
+}
+
+section#redes-sociais {
+    text-align: right;
+
+    /* Aqui é possível alterar o lado que ficarão  os icones.*/
+}
+
+section#redes-sociais img:hover{
+
+    border: rgba(255, 255, 255, 0.6) solid 2px;
+    transform: translate(-5px, -5px);
+    box-shadow: 10px 10px 5px black;
+    transition: transform 2s, border white 5s;
+}
+
