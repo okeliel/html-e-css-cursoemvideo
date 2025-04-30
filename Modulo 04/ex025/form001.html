@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro formulário</title>
+
+    <style>
+        p {
+            height:20px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+
+    <form action="cadastro.php" autocomplete="off">
+
+    <p>
+    Nome:<input type="text" name="form" id="form"><br>
+    </p>
+
+    <p> 
+    Senha:<input type="text" name="form" id="form"> 
+        
+    </p>
+
+    <p>
+    <input type="submit" value="Enviar">
+    </p>
+
+    </form>
+
+
+    <!--
+    Para tirar aquelas frases que você escreveu anteriormente nas caixas do formulário, dentro da tag form digite:
+            <form autocomplete="off">
+
+        Normalmente, os dados de um formulário são enviados para outra linguagem, tipo ASPN, JAVA OU PHP. Eu utilizarei PHP.
+
+        Quando o botão enviar for selecionado, ocorrerá uma ação que, por sua vez, executará o arquivo PHP.
+                <form action="cadastro.php">
+
+
+        O nome da caixinha precisa estar ligado à ela, exemplo:
+
+        Nome |  Eliel  |
+        ----------------------------
+        Para a linguagem PHP funcionar direitinho é peciso que todo objeto de entrada tenha um nome.
+
+        O name é mais útil para o HTML e PHP
+
+        Para linguagens como Javascript, o id é o mais utilizado. Também é muito importante para o Lable.
+    -->
+</body>
+</html>
