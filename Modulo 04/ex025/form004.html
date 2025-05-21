@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 4</title>
+</head>
+<body>
+    <h1>formulário 4</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="Nome" id="inome">
+            </p>
+            
+                <p>
+            <label for="iemail">E-mail</label>
+            <input type="email" name="E-mail" id="iemail" autocomplete="email" required>
+                </p>
+            
+                <p>
+            <label for="itelefone">Telefone</label>
+            <input type="tel" name="Telefone" id="itelefone" required autocomplete="tel" pattern="^\d{4}-\d{4}$">
+                </p>
+        </fieldset>
+
+    
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+
+
+
+
+    <!--
+    ESTUDAR MAIS SOBRE RegEx (Expressões Regulares)
+    
+    É possível colocar uma expressão regular dentro de um parâmetro chamado "patter".
+    
+    -------------------------------------
+
+    ^\d{4}-\d{4}$ = 3333-4444
+
+    Toda expressão regular começa com: ^ 
+    e termina com: $
+
+    Digitos: \d
+
+    Dentro das chaves: coloque a quantidade de digitos
+    EXEMPLO: {4} 
+
+    Seguido de um traço: -
+
+    Digitos: \d
+
+    Quantidade de digitos novamente: {4}
+
+    Feche com $
+    -------------------------------------
+    ^\(\d{2}\)\d{4,5}-\d{4}$ = (11)93333-4444
+
+    Toda expressão regular começa com: ^ 
+    e termina com: $
+
+    Abri aspas: \(
+
+    Digitos: \d
+
+    Dentro das chaves: coloque a quantidade de digitos
+    EXEMPLO: {2} 
+
+    Feche aspas: \)
+
+    
+
+    Digitos: \d
+
+    Quantidade de digitos novamente: {4,5}
+
+    Seguido de um traço: -
+
+    Digitos: \d
+
+    Quantidade de digitos novamente: {4}
+
+    Feche com $
+    ----------------------------------------
+    A tag FIELDSET cria um  quadro em volta do código que está dentro dele. Serve para agrupar dados semelhantes.
+
+    A tag LEGEND destaca uma legenda nesse quadro.
+    -->
+</body>
+</html>
