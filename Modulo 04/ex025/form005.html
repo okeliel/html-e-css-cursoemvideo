@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO 05</title>
+</head>
+<body>
+
+
+
+    <fieldset>
+         <legend>Sexo</legend>
+
+         <!-- Aqui, adicione o mesmo name em todas as opções,
+          do contrário  não será possível alternar entre as opções. -->
+
+        <label for="imasc">
+        <input type="radio" name="sexo" id="imasc" checked>Masculino<br>
+        </label>
+
+        <label for="ifem">
+        <input type="radio" name="sexo" id="ifem">Feminino
+        </label>
+    </fieldset>
+
+        <!---O checked permite que o site já apareça com a opção com o checked marcada.-------------->
+     <!-------------------------------------------------->    
+    <fieldset>
+
+       <legend>Esportes Favoritos</legend>
+
+        <label for="iesfut">
+            <input type="checkbox" name="esfut" id="iesfut" checked>Futebol <br>
+        </label>
+       
+
+        <label for="iesbasq">
+            <input type="checkbox" name="esbasq" id="iesbasq"> Basquete <br>
+        </label>
+
+
+        <label 
+        for="iesvol">
+            <input type="checkbox" name="esvol" id="iesvol">Vôlei <br>
+        </label>
+        
+    </fieldset>
+
+    <!--------------------------------------------------->
+
+
+
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <input type="reset" value="Resetar">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+
+    </form>
+</body>
+</html>
