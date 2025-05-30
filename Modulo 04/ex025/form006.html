@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 6</title>
+</head>
+<body>
+    <h1>Formulário 6</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on" >
+
+
+
+        <label for="icor">Cor: </label>
+
+        <input type="color" name="cor" id="icor"> <br>
+
+
+        <!------------------------------>
+
+        <label for="inivel">Nível de Satisfação</label>
+
+        <input type="range" name="Nível de Satisfação" id="inivel" min="1" max="5" value="2"> <br>
+
+        <!------------------------------>
+
+        <label for="ifoto">Foto de Perfil:</label>
+
+        <input type="file" name="foto" id="ifile">
+
+        <!--
+        Aqui, o formulário precisa estar no method POST sempre que o arquivo for maior que 3mil bytes.
+        -->
+
+    </form>
+
+    <!--
+    É comum que alguns desses controles não funcionem em todos os navegadores, alguns podem apresentar algumas distinções visuais ou de usabilidade.
+    -->
+</body>
+</html>
