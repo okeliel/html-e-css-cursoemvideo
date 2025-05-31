@@ -21,6 +21,8 @@
                 <option value="SP" selected>São Paulo</option>
             </optgroup>
 
+            <!--selected: mantêm o termo escolhido selecionado.-->
+
             <optgroup label="Região Sul">
                 <option value="PR">Paraná</option>
                 <option value="RS">Rio Grande do Sul</option>
@@ -28,6 +30,17 @@
             </optgroup>
         </select>
 </p>
+
+    <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+
+        <datalist id="lstprof">
+
+            <option value="ADM">Administrador</option>
+            <option value="DEV">Desenvolvedor</option>
+            <option value="JRLIST">Jornalista</option>
+        
+        </datalist>
 
 <p>
     <input type="submit" value="Enviar">
