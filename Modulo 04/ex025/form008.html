@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO 8</title>
+</head>
+<body>
+    <h1>FORMULÁRIO 8</h1>
+
+    <p>
+        <label for="in1">Número 1</label>
+        <input type="number" name="n1" id="in1" min="5" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+    </p>
+
+    <p>
+        <label for="in2">Número 2</label>
+
+        <input type="number" name="n2" id="in2" min="5" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+    </p>
+
+    <p>
+        <label for="isoma"> Soma = </label>
+
+        <output name="soma" id="isoma"> 0</output>
+    </p>
+
+    <input type="submit" value="Enviar">
+
+    <input type="reset" value="Resetar">
+
+    <!--
+    
+    CÓDIGO EM JAVASCRIPT:
+
+    oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)"
+    
+    Esse código do JavaScript não grava nada, apenas exibe coisas na tela.
+
+    O código foi adicionado nos dois.
+    
+    -->
+</body>
+</html>
